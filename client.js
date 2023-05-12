@@ -11,7 +11,7 @@ const getClient = function (address) {
 
 
 function main() {
-  const articleClient = getClient('127.0.0.1:50051');
+  const articleClient = getClient('0.0.0.0:50051');
 
   // insert
   articleClient.insert({
